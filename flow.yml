@@ -1,0 +1,14 @@
+# flow.yaml
+appId: com.mobilatolye.android.enuygun
+---
+- launchApp
+- tapOn: "Gidiş-Dönüş" 
+- tapOn: "Nereden?"
+- inputText: "istanbul"
+- tapOn: "ISTA"
+- tapOn: "Nereye?"
+- inputText: "Trabzon"
+- tapOn: "TZX"
+- tapOn:
+    #text: "UCUZ BİLET BUL " 
+    id: "com.mobilatolye.android.enuygun:id/btn_search_fragment_search"    # (optional) Finds text that matches regexp
